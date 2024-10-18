@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 h3 {
   color: #0d6efd;
 }
@@ -8,38 +9,38 @@ h3 {
 .searchbar {
   padding: 20px 0;
   border-radius: 5px;
+  background-color: #e3f2fd;
 }
-.sunny {
-  font-size: 64px;
-  color: yellow;
-  text-align: left;
-}
+
 .current-weather {
   margin: 40px 0;
 }
+
 .current-condition {
-  font-size: 20px;
-  color: #6c7592;
+  font-size: 22px;
+  color: #544e89;
 }
+
 .current-city {
-  font-size: 36px;
-  color: #4a5064;
-}
-.current-date {
-  font-size: 14px;
+  font-size: 48px;
   color: #4a5064;
 }
 
+.current-date {
+  font-size: 18px;
+  color: #6c7592;
+}
+
 .current-temperature {
-  font-size: 36px;
   color: #4a5064;
+  font-size: 48px;
   padding: 0;
   margin: 0;
 }
 
 .additional-factors {
-  font-size: 16px;
-  color: #6c7592;
+  font-size: 18px;
+  color: #4e8fb5;
   padding: 10px;
 }
 
@@ -48,9 +49,9 @@ h3 {
   text-align: center;
   margin: 10px 0;
 }
-.forecast-day,
-.forecast-temperature {
-  font-size: 14px;
+
+.forecast-day {
+  font-size: 16px;
   color: #6c7592;
 }
 
@@ -58,11 +59,28 @@ h3 {
   font-size: 30px;
   color: #6c7592;
 }
-.metric {
-  font-size: 12px;
-  padding: 4px 8px;
+
+.temp-day {
+  font-size: 18px;
+  color: #e3a85b;
+}
+
+.temp-night {
+  font-size: 18px;
+  color: #544e89;
+}
+
+.forecast-description {
+  font-size: 16px;
+  color: #544e89;
+  padding: 10px;
 }
 
 .current-button {
   margin: 0 10px;
+}
+
+.celsius {
+  font-size: 20px;
+  vertical-align: super;
 }
